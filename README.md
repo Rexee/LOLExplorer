@@ -1,8 +1,7 @@
 # LOLExplorer
+Anroid application demonstrating [RIOT League Of Legends API][RIOT] usage
 
-### Anroid application demonstrating [RIOT League Of Legends API][RIOT] usage
-
-#### Used libraries
+##### Used libraries
 [Cupboard][Cupboard] - as ORM 
 
 [Retrofit][Retrofit] - library for working with REST API
