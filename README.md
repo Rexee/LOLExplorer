@@ -1,4 +1,4 @@
-# LOLExplorer
+# LOL Explorer
 
 Anroid application demonstrating [RIOT League Of Legends API][RIOT] usage
 
