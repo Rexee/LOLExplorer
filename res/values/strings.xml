@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LOL Expplorer</string>
+
+    <string name="summonerName">Summoner Name</string>
+    <string name="summonerLevel">Summoner Level</string>
+    <string name="summonerIcon">Summoner Icon</string>
+    <string name="summonerNameNotDefined">Summoner name not specified!</string>
+    <string name="searchSummonerName">Search summoner name</string>
+    <string name="requestInProgress">Requesting...</string>
+    <string name="summonerLastTimePlayed">Last time played</string>
+    <string name="level">Level</string>
+    <string name="lastTimePlayed">Last time played</string>
+    <string name="rankedSolo5v5">Solo Queue</string>
+    <string name="rankedTeam3v3">Ranked Team 3v3</string>
+    <string name="rankedTeam5v5">Ranked Team 5v5</string>
+    <string name="rankedLP">LP</string>
+    <string name="queueType">Queue Type</string>
+    <string name="gamesPlayed">Games Played</string>
+    <string name="lp">LP</string>
+    <string name="thousand">k</string>
+    <string name="KDA">10.10 (10/10/10)</string>
+    <string name="date">01 Apr 2015 11:22</string>
+    <string name="duration">00:00</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="division">Division</string>
+    <string name="title_activity_search">Search summoner</string>
+</resources>

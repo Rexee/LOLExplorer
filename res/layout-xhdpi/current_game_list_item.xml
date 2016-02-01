@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/curGameParticipantChampIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dp" />
+
+    <ImageView
+        android:id="@+id/curGameSpell1"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/curGameParticipantChampIcon"
+        android:layout_toRightOf="@+id/curGameParticipantChampIcon" />
+
+    <ImageView
+        android:id="@+id/curGameSpell2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignBottom="@+id/curGameParticipantChampIcon"
+        android:layout_toRightOf="@+id/curGameParticipantChampIcon" />
+
+    <TextView
+        android:id="@+id/curGameParticipantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/curGameSpell1"
+        android:alpha="0.87"
+        android:shadowColor="#DE000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="Summoner Name"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/curGameParticipantRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/curGameParticipantName"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/curGameParticipantName"
+        android:alpha="0.87"
+        android:gravity="center_vertical"
+        android:text="Summoner Rank"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/curGameParticipantRankedWinratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/curGameParticipantRank"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/curGameParticipantRank"
+        android:alpha="0.87"
+        android:text="Total games: -"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/curGameChampionStatsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/curGameParticipantName"
+        android:layout_marginRight="30dp"
+        android:alpha="0.87"
+        android:text="Champion stats:"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/curGameParticipantChampWinratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/curGameChampionStatsHeader"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/curGameChampionStatsHeader"
+        android:alpha="0.87"
+        android:gravity="center_vertical"
+        android:text="Games: -"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/curGameParticipantChamKDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/curGameChampionStatsHeader"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/curGameParticipantChampWinratio"
+        android:alpha="0.87"
+        android:text="KDA: -"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="56dp"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout>

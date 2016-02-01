@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/linearLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/search_item_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="#ffcfce84"></ImageView>
+
+    <TextView
+        android:id="@+id/search_item_name"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/search_item_image"
+        android:layout_toEndOf="@+id/search_item_image"
+        android:layout_toRightOf="@+id/search_item_image"
+        android:text="Summoner name"></TextView>
+
+    <TextView
+        android:id="@+id/search_item_descr"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_item_name"
+        android:layout_toEndOf="@+id/search_item_image"
+        android:layout_toRightOf="@+id/search_item_image"
+        android:text="Server"></TextView>
+
+</RelativeLayout>
