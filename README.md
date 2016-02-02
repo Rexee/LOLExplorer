@@ -3,7 +3,7 @@
 Anroid application, demonstrating [RIOT League Of Legends API][RIOT] usage
 ---
 
-![main][Main]
+![main][Maingif] -> ![main][Mainpng]
 
 ##### Supported API calls:
 * champion-v1.2
@@ -21,7 +21,8 @@ Anroid application, demonstrating [RIOT League Of Legends API][RIOT] usage
 
 [Retrofit][Retrofit] - library for working with REST API
  
-[Main]: https://cloud.githubusercontent.com/assets/8672252/12757564/9e488ddc-c9e9-11e5-94c7-4ed413dcb27e.gif
+[Maingif]: https://cloud.githubusercontent.com/assets/8672252/12757564/9e488ddc-c9e9-11e5-94c7-4ed413dcb27e.gif
+[Mainpng]: https://cloud.githubusercontent.com/assets/8672252/12758200/894b0d3a-c9ec-11e5-9eba-473f638d818f.png
 [RIOT]: https://developer.riotgames.com "RIOT League Of Legends API"
 [Cupboard]: https://bitbucket.org/littlerobots/cupboard "Cupboard"
 [Retrofit]: http://square.github.io/retrofit "Retrofit"
