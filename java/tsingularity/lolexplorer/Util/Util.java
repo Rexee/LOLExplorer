@@ -33,8 +33,7 @@ public class Util {
 
         Date date = new Date(revisionDate);
 
-        SimpleDateFormat sdf = new SimpleDateFormat("d MMMM yyyy HH:mm", new Locale("ru"));
-        sdf.setTimeZone(TimeZone.getTimeZone("Russia/Moscow"));
+        SimpleDateFormat sdf = new SimpleDateFormat("d MMMM yyyy HH:mm", Locale.getDefault());
         return sdf.format(date).toString();
 
     }
