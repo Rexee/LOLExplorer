@@ -1,6 +1,6 @@
-# LOL Explorer
+### LOL Explorer
 
-Anroid application, demonstrating [RIOT League Of Legends API][RIOT] usage
+###### Anroid application, demonstrating [RIOT League Of Legends API][RIOT] usage
 ---
 
 ![main][Maingif] -> ![main][Mainpng]
