@@ -35,7 +35,9 @@ public enum QueueType {
     ASCENSION_5x5("Ascension", 96),
     HEXAKILL("Twisted Treeline 6x6 Hexakill", 98),
     KING_PORO_5x5("King Poro", 300),
-    COUNTER_PICK("Nemesis Draft", 301);
+    COUNTER_PICK("Nemesis Draft", 301),
+    TEAM_BUILDER_DRAFT_RANKED_5x5("Team builder ranked 5v5" ,410),
+    TEAM_BUILDER_DRAFT_UNRANKED_5x5("Team builder 5v5", 400);
 
     private String name;
     private int    gameQueueConfigId;
